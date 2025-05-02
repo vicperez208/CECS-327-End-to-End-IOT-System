@@ -1,2 +1,3 @@
 # CECS-327-End-to-End-IOT-System
 Build an End-to-End IoT System
+This project includes a simple client-server application that connects to a MongoDB database to query sensor data. The server listens for client requests on a specific port and responds with data about moisture, water consumption, and electricity consumption from connected devices. #instructions pip install python and psycopg2 run client.py and server.py Once connected, user will be prompted with: Average moisture inside the fridge in the last 3 hours. Average water consumption per dishwasher cycle. Device with the highest electricity consumption. 
